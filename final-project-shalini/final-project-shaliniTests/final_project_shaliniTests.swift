@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import final_project_shalini
 
 class final_project_shaliniTests: XCTestCase {
 
@@ -19,10 +18,30 @@ class final_project_shaliniTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testExampleSucceeds() {
+        let bleedingItem = SymptomView.init("bleed", 4)
+            XCTAssertNotNil(bleedingItem)
+            let ache = SymptomView.init("stomach ache", 5)
+            XCTAssertNotNil(ache)
     }
+    
+    func testExampleFails() {
+        let noSymptomMentioned = SymptomView.init("", 3)
+        XCTAssertNil(noSymptomMentioned)
+        let negativeRating = SymptomView.init("cramps", -2)
+        XCTAssertNil(negativeRating)
+        
+    }
+    
+    func testAddSymptomsperMonth() {
+        let bleedingItem = SymptomView.init("bleed", 4)!
+        let ache = SymptomView.init("stomach ache", 5)
+        let symptomsList = SymptomLogPerMonth.init()
+        XCTAssertEqual(0, symptomsList.symptoms.count)
+        symptomsList.addSymptom(symptom: bleedingItem)
+        XCTAssertEqual(1, symptomsList.symptoms.count)
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
