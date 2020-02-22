@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3D8EA0BC69F1119588D41A /* Pods_final_project_shalini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474C6A6D18F46F5024945DFA /* Pods_final_project_shalini.framework */; };
 		4655717A23FF79E2003E5728 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655717923FF79E2003E5728 /* Test.swift */; };
 		4665209823FF2CCA00432CBA /* SymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665209723FF2CCA00432CBA /* SymptomView.swift */; };
 		4665209923FF2CCA00432CBA /* SymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665209723FF2CCA00432CBA /* SymptomView.swift */; };
@@ -21,8 +20,10 @@
 		4665BE1123FEF1E90099FC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665BE0F23FEF1E90099FC3B /* LaunchScreen.storyboard */; };
 		4665BE1C23FEF1E90099FC3B /* final_project_shaliniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665BE1B23FEF1E90099FC3B /* final_project_shaliniTests.swift */; };
 		4665BE2723FEF1E90099FC3B /* final_project_shaliniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665BE2623FEF1E90099FC3B /* final_project_shaliniUITests.swift */; };
-		D05E6D550BCD45280A0A6FC7 /* Pods_final_project_shalini_final_project_shaliniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1AF63B5FE05183FE724092 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */; };
-		D4CE186F8D3543F18EA87FF2 /* Pods_final_project_shaliniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581480A3DE8F64E46DE378F1 /* Pods_final_project_shaliniTests.framework */; };
+		4680ED592401A1C50042EA2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4680ED582401A1C50042EA2E /* GoogleService-Info.plist */; };
+		4D8FCF8D16BA438A61D0EE33 /* Pods_final_project_shaliniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0A3119F27594240DC43FA /* Pods_final_project_shaliniTests.framework */; };
+		77164168FB1BA97DF250ACAD /* Pods_final_project_shalini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2E9B0A26CAD5A9C08CB639 /* Pods_final_project_shalini.framework */; };
+		7CE93F6C50FB4BC4B67C890E /* Pods_final_project_shalini_final_project_shaliniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1EE9775D677D57C069D5B2 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31AEF674374FFD21C0DD449A /* Pods-final-project-shaliniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D88B993539E8C38482A8D49 /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		01AF3590318346F13D8F901C /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20EEE3C9900F8B577546F645 /* Pods-final-project-shalini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.debug.xcconfig"; sourceTree = "<group>"; };
 		4655717923FF79E2003E5728 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4665209723FF2CCA00432CBA /* SymptomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomView.swift; sourceTree = "<group>"; };
 		4665209B23FF2D2A00432CBA /* SymptomLogPerMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomLogPerMonth.swift; sourceTree = "<group>"; };
@@ -62,13 +63,14 @@
 		4665BE2223FEF1E90099FC3B /* final-project-shaliniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final-project-shaliniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4665BE2623FEF1E90099FC3B /* final_project_shaliniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_project_shaliniUITests.swift; sourceTree = "<group>"; };
 		4665BE2823FEF1E90099FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		474C6A6D18F46F5024945DFA /* Pods_final_project_shalini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shalini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A1AF63B5FE05183FE724092 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shalini_final_project_shaliniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		581480A3DE8F64E46DE378F1 /* Pods_final_project_shaliniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shaliniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		886A477BDD6D7A3C53F9CB3D /* Pods-final-project-shalini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.release.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.release.xcconfig"; sourceTree = "<group>"; };
-		8C17B6998FE804FA15C97D80 /* Pods-final-project-shaliniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.release.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.release.xcconfig"; sourceTree = "<group>"; };
-		D89DD81FC6DE7A2B780398CB /* Pods-final-project-shalini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.debug.xcconfig"; sourceTree = "<group>"; };
-		E9CA58BF7DDC9296F2E0AD5B /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4680ED582401A1C50042EA2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E2E9B0A26CAD5A9C08CB639 /* Pods_final_project_shalini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shalini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B48C35D1D6A8F368035D32F /* Pods-final-project-shaliniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.release.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A525BA89C54672E5DCEF5F9 /* Pods-final-project-shaliniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51DA9335F2F79D49F6E4721 /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAF0A3119F27594240DC43FA /* Pods_final_project_shaliniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shaliniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A33650A2DC32DC22CE1611 /* Pods-final-project-shalini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.release.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.release.xcconfig"; sourceTree = "<group>"; };
+		FB1EE9775D677D57C069D5B2 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shalini_final_project_shaliniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3D8EA0BC69F1119588D41A /* Pods_final_project_shalini.framework in Frameworks */,
+				77164168FB1BA97DF250ACAD /* Pods_final_project_shalini.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4CE186F8D3543F18EA87FF2 /* Pods_final_project_shaliniTests.framework in Frameworks */,
+				4D8FCF8D16BA438A61D0EE33 /* Pods_final_project_shaliniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05E6D550BCD45280A0A6FC7 /* Pods_final_project_shalini_final_project_shaliniUITests.framework in Frameworks */,
+				7CE93F6C50FB4BC4B67C890E /* Pods_final_project_shalini_final_project_shaliniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +117,8 @@
 				4665BE1A23FEF1E90099FC3B /* final-project-shaliniTests */,
 				4665BE2523FEF1E90099FC3B /* final-project-shaliniUITests */,
 				4665BE0223FEF1E80099FC3B /* Products */,
-				BC124BE220EBCCCB9752336E /* Pods */,
 				C771D8BB9A70455C0F326F7F /* Frameworks */,
+				7348B84FECDF25E57D0C39B6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +142,7 @@
 				4665BE0A23FEF1E90099FC3B /* Assets.xcassets */,
 				4665BE0F23FEF1E90099FC3B /* LaunchScreen.storyboard */,
 				4665BE1223FEF1E90099FC3B /* Info.plist */,
+				4680ED582401A1C50042EA2E /* GoogleService-Info.plist */,
 				4665BE0C23FEF1E90099FC3B /* Preview Content */,
 			);
 			path = "final-project-shalini";
@@ -172,15 +175,15 @@
 			path = "final-project-shaliniUITests";
 			sourceTree = "<group>";
 		};
-		BC124BE220EBCCCB9752336E /* Pods */ = {
+		7348B84FECDF25E57D0C39B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D89DD81FC6DE7A2B780398CB /* Pods-final-project-shalini.debug.xcconfig */,
-				886A477BDD6D7A3C53F9CB3D /* Pods-final-project-shalini.release.xcconfig */,
-				3D88B993539E8C38482A8D49 /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */,
-				E9CA58BF7DDC9296F2E0AD5B /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */,
-				31AEF674374FFD21C0DD449A /* Pods-final-project-shaliniTests.debug.xcconfig */,
-				8C17B6998FE804FA15C97D80 /* Pods-final-project-shaliniTests.release.xcconfig */,
+				20EEE3C9900F8B577546F645 /* Pods-final-project-shalini.debug.xcconfig */,
+				F1A33650A2DC32DC22CE1611 /* Pods-final-project-shalini.release.xcconfig */,
+				01AF3590318346F13D8F901C /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */,
+				D51DA9335F2F79D49F6E4721 /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */,
+				8A525BA89C54672E5DCEF5F9 /* Pods-final-project-shaliniTests.debug.xcconfig */,
+				7B48C35D1D6A8F368035D32F /* Pods-final-project-shaliniTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -188,9 +191,9 @@
 		C771D8BB9A70455C0F326F7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				474C6A6D18F46F5024945DFA /* Pods_final_project_shalini.framework */,
-				4A1AF63B5FE05183FE724092 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */,
-				581480A3DE8F64E46DE378F1 /* Pods_final_project_shaliniTests.framework */,
+				4E2E9B0A26CAD5A9C08CB639 /* Pods_final_project_shalini.framework */,
+				FB1EE9775D677D57C069D5B2 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */,
+				EAF0A3119F27594240DC43FA /* Pods_final_project_shaliniTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				4665BDFD23FEF1E80099FC3B /* Sources */,
 				4665BDFE23FEF1E80099FC3B /* Frameworks */,
 				4665BDFF23FEF1E80099FC3B /* Resources */,
+				833B1363A2A1D92E7E66631D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +247,7 @@
 				4665BE1E23FEF1E90099FC3B /* Sources */,
 				4665BE1F23FEF1E90099FC3B /* Frameworks */,
 				4665BE2023FEF1E90099FC3B /* Resources */,
+				318326407A0996C355A48654 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4665BE1123FEF1E90099FC3B /* LaunchScreen.storyboard in Resources */,
+				4680ED592401A1C50042EA2E /* GoogleService-Info.plist in Resources */,
 				4665BE0E23FEF1E90099FC3B /* Preview Assets.xcassets in Resources */,
 				4665BE0B23FEF1E90099FC3B /* Assets.xcassets in Resources */,
 			);
@@ -325,6 +331,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		318326407A0996C355A48654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5872C7E65F123B1BE0E4C8C7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +390,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		833B1363A2A1D92E7E66631D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D6B98B00467B6E1C2AA29BB0 /* [CP] Check Pods Manifest.lock */ = {
@@ -568,7 +608,7 @@
 		};
 		4665BE2C23FEF1E90099FC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D89DD81FC6DE7A2B780398CB /* Pods-final-project-shalini.debug.xcconfig */;
+			baseConfigurationReference = 20EEE3C9900F8B577546F645 /* Pods-final-project-shalini.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -588,7 +628,7 @@
 		};
 		4665BE2D23FEF1E90099FC3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 886A477BDD6D7A3C53F9CB3D /* Pods-final-project-shalini.release.xcconfig */;
+			baseConfigurationReference = F1A33650A2DC32DC22CE1611 /* Pods-final-project-shalini.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,7 +648,7 @@
 		};
 		4665BE2F23FEF1E90099FC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31AEF674374FFD21C0DD449A /* Pods-final-project-shaliniTests.debug.xcconfig */;
+			baseConfigurationReference = 8A525BA89C54672E5DCEF5F9 /* Pods-final-project-shaliniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,7 +670,7 @@
 		};
 		4665BE3023FEF1E90099FC3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C17B6998FE804FA15C97D80 /* Pods-final-project-shaliniTests.release.xcconfig */;
+			baseConfigurationReference = 7B48C35D1D6A8F368035D32F /* Pods-final-project-shaliniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,7 +692,7 @@
 		};
 		4665BE3223FEF1E90099FC3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D88B993539E8C38482A8D49 /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */;
+			baseConfigurationReference = 01AF3590318346F13D8F901C /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,7 +712,7 @@
 		};
 		4665BE3323FEF1E90099FC3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9CA58BF7DDC9296F2E0AD5B /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */;
+			baseConfigurationReference = D51DA9335F2F79D49F6E4721 /* Pods-final-project-shalini-final-project-shaliniUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
