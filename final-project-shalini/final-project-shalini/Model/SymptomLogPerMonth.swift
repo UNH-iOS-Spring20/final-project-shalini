@@ -9,7 +9,7 @@
 class SymptomLogPerMonth {
    var symptoms = [SymptomView]()
     
-    func addSymptom(symptom: SymptomView) {
+    func addSymptom( _ symptom: SymptomView) {
         symptoms.append(symptom)
     }
     

@@ -35,10 +35,10 @@ class final_project_shaliniTests: XCTestCase {
     
     func testAddSymptomsperMonth() {
         let bleedingItem = SymptomView.init("bleed", 4)!
-        let ache = SymptomView.init("stomach ache", 5)
+        _ = SymptomView.init("stomach ache", 5)
         let symptomsList = SymptomLogPerMonth.init()
         XCTAssertEqual(0, symptomsList.symptoms.count)
-        symptomsList.addSymptom(symptom: bleedingItem)
+        symptomsList.addSymptom(bleedingItem)
         XCTAssertEqual(1, symptomsList.symptoms.count)
     }
     
