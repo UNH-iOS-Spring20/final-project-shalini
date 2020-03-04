@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4653FE53240F147800160684 /* CalendarColorSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653FE52240F147800160684 /* CalendarColorSetting.swift */; };
 		4655717A23FF79E2003E5728 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655717923FF79E2003E5728 /* Test.swift */; };
 		4665209823FF2CCA00432CBA /* SymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665209723FF2CCA00432CBA /* SymptomView.swift */; };
 		4665209923FF2CCA00432CBA /* SymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665209723FF2CCA00432CBA /* SymptomView.swift */; };
@@ -20,9 +21,14 @@
 		4665BE1123FEF1E90099FC3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4665BE0F23FEF1E90099FC3B /* LaunchScreen.storyboard */; };
 		4665BE1C23FEF1E90099FC3B /* final_project_shaliniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665BE1B23FEF1E90099FC3B /* final_project_shaliniTests.swift */; };
 		4665BE2723FEF1E90099FC3B /* final_project_shaliniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4665BE2623FEF1E90099FC3B /* final_project_shaliniUITests.swift */; };
+		467BF051240B92950085401D /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF050240B92950085401D /* CalendarDate.swift */; };
+		467BF053240B94F60085401D /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF052240B94F60085401D /* CalendarCell.swift */; };
+		467BF057240B96CB0085401D /* CalendarWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF056240B96CB0085401D /* CalendarWeekdayHeader.swift */; };
+		467BF059240B97B80085401D /* CalendarMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF058240B97B80085401D /* CalendarMonth.swift */; };
+		467BF05D240B9BE70085401D /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF05C240B9BE70085401D /* CalendarVC.swift */; };
+		467BF05F240B9CC20085401D /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467BF05E240B9CC20085401D /* CalendarManager.swift */; };
 		4680ED592401A1C50042EA2E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4680ED582401A1C50042EA2E /* GoogleService-Info.plist */; };
-		46AFBEAF2407D08B0028B772 /* PTDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFBEAE2407D08B0028B772 /* PTDate.swift */; };
-		46AFBEB3240802130028B772 /* PTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AFBEB2240802130028B772 /* PTCell.swift */; };
+		46FD60B4240A9A1400A8869A /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FD60B3240A9A1400A8869A /* Symptom.swift */; };
 		4D8FCF8D16BA438A61D0EE33 /* Pods_final_project_shaliniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0A3119F27594240DC43FA /* Pods_final_project_shaliniTests.framework */; };
 		77164168FB1BA97DF250ACAD /* Pods_final_project_shalini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2E9B0A26CAD5A9C08CB639 /* Pods_final_project_shalini.framework */; };
 		7CE93F6C50FB4BC4B67C890E /* Pods_final_project_shalini_final_project_shaliniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1EE9775D677D57C069D5B2 /* Pods_final_project_shalini_final_project_shaliniUITests.framework */; };
@@ -48,6 +54,7 @@
 /* Begin PBXFileReference section */
 		01AF3590318346F13D8F901C /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		20EEE3C9900F8B577546F645 /* Pods-final-project-shalini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.debug.xcconfig"; sourceTree = "<group>"; };
+		4653FE52240F147800160684 /* CalendarColorSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarColorSetting.swift; sourceTree = "<group>"; };
 		4655717923FF79E2003E5728 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		4665209723FF2CCA00432CBA /* SymptomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomView.swift; sourceTree = "<group>"; };
 		4665209B23FF2D2A00432CBA /* SymptomLogPerMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomLogPerMonth.swift; sourceTree = "<group>"; };
@@ -65,9 +72,14 @@
 		4665BE2223FEF1E90099FC3B /* final-project-shaliniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "final-project-shaliniUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4665BE2623FEF1E90099FC3B /* final_project_shaliniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_project_shaliniUITests.swift; sourceTree = "<group>"; };
 		4665BE2823FEF1E90099FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467BF050240B92950085401D /* CalendarDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
+		467BF052240B94F60085401D /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		467BF056240B96CB0085401D /* CalendarWeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeekdayHeader.swift; sourceTree = "<group>"; };
+		467BF058240B97B80085401D /* CalendarMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMonth.swift; sourceTree = "<group>"; };
+		467BF05C240B9BE70085401D /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		467BF05E240B9CC20085401D /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
 		4680ED582401A1C50042EA2E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		46AFBEAE2407D08B0028B772 /* PTDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTDate.swift; sourceTree = "<group>"; };
-		46AFBEB2240802130028B772 /* PTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTCell.swift; sourceTree = "<group>"; };
+		46FD60B3240A9A1400A8869A /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
 		4E2E9B0A26CAD5A9C08CB639 /* Pods_final_project_shalini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_final_project_shalini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B48C35D1D6A8F368035D32F /* Pods-final-project-shaliniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.release.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.release.xcconfig"; sourceTree = "<group>"; };
 		8A525BA89C54672E5DCEF5F9 /* Pods-final-project-shaliniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shaliniTests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shaliniTests/Pods-final-project-shaliniTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,9 +120,11 @@
 		4665209623FF2BEE00432CBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				46AFBEAD2407D06A0028B772 /* Calendar */,
+				46EA735B240F325800BF6207 /* Calendar Model */,
+				46AFBEAD2407D06A0028B772 /* Controller */,
 				4665209723FF2CCA00432CBA /* SymptomView.swift */,
 				4665209B23FF2D2A00432CBA /* SymptomLogPerMonth.swift */,
+				46FD60B3240A9A1400A8869A /* Symptom.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,7 +157,6 @@
 				4665209623FF2BEE00432CBA /* Model */,
 				4665BE0423FEF1E80099FC3B /* AppDelegate.swift */,
 				4665BE0623FEF1E80099FC3B /* SceneDelegate.swift */,
-				4665BE0823FEF1E80099FC3B /* ContentView.swift */,
 				4665BE0A23FEF1E90099FC3B /* Assets.xcassets */,
 				4665BE0F23FEF1E90099FC3B /* LaunchScreen.storyboard */,
 				4665BE1223FEF1E90099FC3B /* Info.plist */,
@@ -180,13 +193,26 @@
 			path = "final-project-shaliniUITests";
 			sourceTree = "<group>";
 		};
-		46AFBEAD2407D06A0028B772 /* Calendar */ = {
+		46AFBEAD2407D06A0028B772 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				46AFBEAE2407D08B0028B772 /* PTDate.swift */,
-				46AFBEB2240802130028B772 /* PTCell.swift */,
+				4653FE52240F147800160684 /* CalendarColorSetting.swift */,
+				467BF050240B92950085401D /* CalendarDate.swift */,
+				467BF05E240B9CC20085401D /* CalendarManager.swift */,
 			);
-			path = Calendar;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46EA735B240F325800BF6207 /* Calendar Model */ = {
+			isa = PBXGroup;
+			children = (
+				4665BE0823FEF1E80099FC3B /* ContentView.swift */,
+				467BF052240B94F60085401D /* CalendarCell.swift */,
+				467BF058240B97B80085401D /* CalendarMonth.swift */,
+				467BF05C240B9BE70085401D /* CalendarVC.swift */,
+				467BF056240B96CB0085401D /* CalendarWeekdayHeader.swift */,
+			);
+			path = "Calendar Model";
 			sourceTree = "<group>";
 		};
 		7348B84FECDF25E57D0C39B6 /* Pods */ = {
@@ -452,13 +478,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467BF059240B97B80085401D /* CalendarMonth.swift in Sources */,
+				467BF051240B92950085401D /* CalendarDate.swift in Sources */,
+				467BF05D240B9BE70085401D /* CalendarVC.swift in Sources */,
+				4653FE53240F147800160684 /* CalendarColorSetting.swift in Sources */,
 				4665209823FF2CCA00432CBA /* SymptomView.swift in Sources */,
-				46AFBEB3240802130028B772 /* PTCell.swift in Sources */,
-				46AFBEAF2407D08B0028B772 /* PTDate.swift in Sources */,
+				46FD60B4240A9A1400A8869A /* Symptom.swift in Sources */,
 				4665BE0523FEF1E80099FC3B /* AppDelegate.swift in Sources */,
+				467BF057240B96CB0085401D /* CalendarWeekdayHeader.swift in Sources */,
 				4665BE0723FEF1E80099FC3B /* SceneDelegate.swift in Sources */,
 				4665209C23FF2D2A00432CBA /* SymptomLogPerMonth.swift in Sources */,
+				467BF05F240B9CC20085401D /* CalendarManager.swift in Sources */,
 				4665BE0923FEF1E80099FC3B /* ContentView.swift in Sources */,
+				467BF053240B94F60085401D /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
