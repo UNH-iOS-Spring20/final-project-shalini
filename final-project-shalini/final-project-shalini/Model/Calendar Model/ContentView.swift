@@ -25,20 +25,30 @@ struct ContentView : View {
     
     var body: some View {
         
-        VStack (spacing: 25) {
-//
-//            Button(action: { self.singleIsPresented.toggle() }) {
-//                Text("Example 1 - Single Date Selection").foregroundColor(.blue)
-//            }
-//            .sheet(isPresented: self.$singleIsPresented, content: {
-//                CalendarVC(isPresented: self.$singleIsPresented, calmanager:  self.calManager1)})
-//            Text(self.getTextFromDate(date: self.calManager1.selectedDate))
+        VStack {
+//            ImageViewer()
+//            offset(y: -13)
+//            .padding(.bottom, -13)
+                       
+            
+            Text("My Period.")
+                .font(.largeTitle)
+            
+            
+           
             
             Button(action: { self.startIsPresented.toggle() }) {
                 VStack {
-                    Text("Enter the flow Start Date and End Date").foregroundColor(.blue)
-                    Text("(end date > start date)").foregroundColor(.blue)
-                }
+                    Text("Log my Period").foregroundColor(.pink).multilineTextAlignment(.leading).background(/*@START_MENU_TOKEN@*/Color.blue
+                        .background(/*@START_MENU_TOKEN@*/Color.gray
+                            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                            .clipped()/*@END_MENU_TOKEN@*/)/*@END_MENU_TOKEN@*/)
+                    SymptomView()
+                        .background(/*@START_MENU_TOKEN@*/Color.blue
+                            .background(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)/*@END_MENU_TOKEN@*/)
+//                    Text("(end date > start date)").foregroundColor(.blue)
+                    
+                }.font(.title)
             }
             .sheet(isPresented: self.$startIsPresented, content: {
                 CalendarVC(isPresented: self.$startIsPresented, calmanager: self.calManager2)})
