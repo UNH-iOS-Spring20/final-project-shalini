@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4622B4D2241A91B900791D2F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4622B4D1241A91B900791D2F /* LoginView.swift */; };
 		4653FE53240F147800160684 /* CalendarColorSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4653FE52240F147800160684 /* CalendarColorSetting.swift */; };
 		4655717A23FF79E2003E5728 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4655717923FF79E2003E5728 /* Test.swift */; };
 		465B839624116B2E004379AE /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 465B839324116B2E004379AE /* arrow@2x.png */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		01AF3590318346F13D8F901C /* Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini-final-project-shaliniUITests/Pods-final-project-shalini-final-project-shaliniUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		20EEE3C9900F8B577546F645 /* Pods-final-project-shalini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-final-project-shalini.debug.xcconfig"; path = "Target Support Files/Pods-final-project-shalini/Pods-final-project-shalini.debug.xcconfig"; sourceTree = "<group>"; };
+		4622B4D1241A91B900791D2F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4653FE52240F147800160684 /* CalendarColorSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarColorSetting.swift; sourceTree = "<group>"; };
 		4655717923FF79E2003E5728 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		465B839324116B2E004379AE /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		4665209623FF2BEE00432CBA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4622B4D1241A91B900791D2F /* LoginView.swift */,
 				46EA735B240F325800BF6207 /* Calendar Model */,
 				46AFBEAD2407D06A0028B772 /* Controller */,
 			);
@@ -506,6 +509,7 @@
 				467BF057240B96CB0085401D /* CalendarWeekdayHeader.swift in Sources */,
 				4665BE0723FEF1E80099FC3B /* SceneDelegate.swift in Sources */,
 				467BF05F240B9CC20085401D /* CalendarManager.swift in Sources */,
+				4622B4D2241A91B900791D2F /* LoginView.swift in Sources */,
 				4665BE0923FEF1E80099FC3B /* ContentView.swift in Sources */,
 				465B83EF24119168004379AE /* Period.swift in Sources */,
 				467BF053240B94F60085401D /* CalendarCell.swift in Sources */,
