@@ -1,8 +1,8 @@
 //
-//  ContentView.swift
+//  Calendar.swift
 //  final-project-shalini
 //
-//  Created by Shalu Garikapaty on 2/20/20.
+//  Created by Shalu Garikapaty on 3/22/20.
 //  Copyright © 2020 Shalini Garikapaty. All rights reserved.
 //
 
@@ -26,29 +26,18 @@ struct ContentView : View {
     var body: some View {
         
         VStack {
-//            ImageViewer()
-//            offset(y: -13)
-//            .padding(.bottom, -13)
-                       
-            
-            Text("My Period.")
-                .font(.largeTitle)
-            
-            
-           
+            WelcomeTextView()
+            MySymptomView()
+        
             
             Button(action: { self.startIsPresented.toggle() }) {
                 VStack {
-                    Text("Log my Period").foregroundColor(.pink).multilineTextAlignment(.leading).background(/*@START_MENU_TOKEN@*/Color.blue
-                        .background(/*@START_MENU_TOKEN@*/Color.gray
+                    Text("Log my Period").foregroundColor(.pink).multilineTextAlignment(.leading)
                             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                            .clipped()/*@END_MENU_TOKEN@*/)/*@END_MENU_TOKEN@*/)
-                    SymptomView()
-                        .background(/*@START_MENU_TOKEN@*/Color.blue
-                            .background(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)/*@END_MENU_TOKEN@*/)
-//                    Text("(end date > start date)").foregroundColor(.blue)
+                            .clipped()
                     
-                }.font(.title)
+                    
+                }.font(.largeTitle)
             }
             .sheet(isPresented: self.$startIsPresented, content: {
                 CalendarVC(isPresented: self.$startIsPresented, calmanager: self.calManager2)})
@@ -111,4 +100,16 @@ struct ContentView_Previews : PreviewProvider {
 #endif
 
 
-   
+struct WelcomeTextView : View {
+    var body:some View {
+        Text("My Period.")
+        .font(.largeTitle)
+    }
+}
+
+struct MySymptomView: View {
+    var body : some View {
+        SymptomView()
+    }
+}
+

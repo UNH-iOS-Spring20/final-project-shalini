@@ -1,45 +1,13 @@
 //
-//  ContentView.swift
-//  Symptoms
+//  SymptomsView.swift
+//  final-project-shalini
 //
-//  Created by Shalu Garikapaty on 3/5/20.
+//  Created by Shalu Garikapaty on 3/22/20.
 //  Copyright © 2020 Shalini Garikapaty. All rights reserved.
 //
 
 import SwiftUI
 
-
-struct CircleImage: View {
-    var feelings: Feelings
-    var body: some View {
-        Image("arrow")
-            .clipShape(Circle())
-        .overlay(
-                       Circle().stroke(Color.white, lineWidth: 4))
-                   .shadow(radius: 10)
-    }
-}
-
-
-struct Feelings: Identifiable{
-   
-    var id = UUID()
-    var name: String
-    var image:Image
-  
-   
-}
-
-
-
-struct FeelingsRow: View {
-    var feelings: Feelings
-   
-    var body: some View {
-        Text(feelings.name)
-
-    }
-}
 
 struct SymptomView: View {
     var body: some View {
