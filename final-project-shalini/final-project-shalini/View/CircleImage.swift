@@ -1,21 +1,26 @@
-//
-//  CircleImage.swift
-//  final-project-shalini
-//
-//  Created by Shalu Garikapaty on 3/22/20.
-//  Copyright © 2020 Shalini Garikapaty. All rights reserved.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ A view that clips an image to a circle and adds a stroke and shadow.
+ */
 
 import SwiftUI
 
 struct CircleImage: View {
+    let imgSize: CGFloat = 250
+    var image: Image
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        image
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
     }
 }
 
 struct CircleImage_Previews: PreviewProvider {
     static var previews: some View {
-        CircleImage()
+        CircleImage(image: Image("symptom1"))
     }
 }
