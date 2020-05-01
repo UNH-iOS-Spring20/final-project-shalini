@@ -1,0 +1,55 @@
+[
+	
+{
+	"name" :"Cramps",
+	"catogory" : "Symptoms"
+	"imageName" : "symptom1"
+},
+
+{
+  "name" : "Tender Breasts"
+  "catogory": "Symptoms"
+  "imageName" : "symptom2"
+
+},
+
+
+{
+  "name" : "headache"
+  "catogory": "Symptoms",
+  "imageName" : "symptom3",
+
+},
+
+
+{
+  "name" : "Everything is fine"
+  "catogory": "Symptoms",
+  "imageName" : "symptomn4",
+
+},
+
+
+{
+  "name" : "Headache"
+  "catogory": "Symptoms",
+  "imageName" : "headache",
+
+},
+
+{
+  "name" : "Acne"
+  "catogory": "Symptoms",
+  "imageName" : "acne",
+
+},
+
+{
+  "name" : "Bloating"
+  "catogory": "Symptoms",
+  "imageName" : "bloating",
+
+}
+
+
+]
