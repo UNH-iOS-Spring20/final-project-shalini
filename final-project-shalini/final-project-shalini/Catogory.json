@@ -1,0 +1,62 @@
+[{
+    "id":"001",
+    "name" :"Cramps",
+    "imageName" : "symptom1"
+},
+
+{
+    "id" : "002",
+    "name" : "Tender Breasts",
+    "imageName" : "symptom2"
+    
+},
+
+
+{
+    "id": "003",
+    "name" : "headache",
+    "imageName" : "symptom3"
+    
+},
+{
+    "id"  : "004",
+    "name" : "Everything is fine",
+    "imageName" : "symptomn4"
+    
+},
+
+
+{
+    "id":"005",
+    "name" : "Headache",
+    "imageName" : "headache"
+    
+},
+
+{
+    "id" : "006",
+    "name" : "Acne",
+    "imageName" : "acne"
+    
+},
+
+{
+    "id": "007",
+    "name" : "Bloating",
+    "imageName" : "bloating"
+    
+},
+{
+    "id" : "008",
+    "name" : "Diarrhea",
+    "imageName":"diarrhea"
+},
+
+
+{
+    "id" : "009",
+    "name" :"Insomina",
+    "imageName":"insomnia"
+}
+
+]
