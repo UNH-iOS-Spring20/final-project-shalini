@@ -9,13 +9,19 @@
 import SwiftUI
 
 struct MultipleSelectionRow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    var title: String
+    var isSelected: Bool
+    var action: () -> Void
 
-struct MultipleSelectionRow_Previews: PreviewProvider {
-    static var previews: some View {
-        MultipleSelectionRow()
+    var body: some View {
+        Button(action: self.action) {
+            HStack {
+                Text(self.title)
+                if self.isSelected {
+                    Spacer()
+                    Image(systemName: "checkmark")
+                }
+            }
+        }
     }
 }
