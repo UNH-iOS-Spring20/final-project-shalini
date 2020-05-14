@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		175FB0C026BE3730695EA4B6 /* Pods_ShaliniApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6C244674A7B4C2BD33A25E /* Pods_ShaliniApp.framework */; };
+		567AFC86246CF0A8005EFF08 /* Symptoms_prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567AFC85246CF0A8005EFF08 /* Symptoms_prediction.swift */; };
 		B7595D088C78E1FB1D800BD8 /* Pods_ShaliniApp_ShaliniAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B680DECBE5FB9D6349F6D7 /* Pods_ShaliniApp_ShaliniAppUITests.framework */; };
 		DA96FF42D465DE092CD432AE /* Pods_ShaliniAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0605DD40F163E603C62D8 /* Pods_ShaliniAppTests.framework */; };
 		EB669BDF246B8E3E00B6D54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB669BDE246B8E3E00B6D54A /* AppDelegate.swift */; };
@@ -58,6 +59,7 @@
 		08F5771186F11AE52CCC8E1B /* Pods-ShaliniAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaliniAppTests.release.xcconfig"; path = "Target Support Files/Pods-ShaliniAppTests/Pods-ShaliniAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3394323B2A7B85E4FC1B082D /* Pods-ShaliniApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaliniApp.debug.xcconfig"; path = "Target Support Files/Pods-ShaliniApp/Pods-ShaliniApp.debug.xcconfig"; sourceTree = "<group>"; };
 		42E0605DD40F163E603C62D8 /* Pods_ShaliniAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaliniAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AFC85246CF0A8005EFF08 /* Symptoms_prediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Symptoms_prediction.swift; path = ../../../../Downloads/Symptoms_prediction.swift; sourceTree = "<group>"; };
 		65B929AE0B1423C2CFD857B7 /* Pods-ShaliniApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaliniApp.release.xcconfig"; path = "Target Support Files/Pods-ShaliniApp/Pods-ShaliniApp.release.xcconfig"; sourceTree = "<group>"; };
 		AB6E727AE52C319AFA6A7DAD /* Pods-ShaliniAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaliniAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShaliniAppTests/Pods-ShaliniAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5B680DECBE5FB9D6349F6D7 /* Pods_ShaliniApp_ShaliniAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaliniApp_ShaliniAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +202,7 @@
 		EB669C0E246B8E5800B6D54A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				567AFC85246CF0A8005EFF08 /* Symptoms_prediction.swift */,
 				EB669C37246BA2FF00B6D54A /* User.swift */,
 				EB669C35246B9EA800B6D54A /* GoogleService-Info.plist */,
 				EB669C31246B902900B6D54A /* SingUp.swift */,
@@ -527,6 +530,7 @@
 			files = (
 				EB669C26246B8FD700B6D54A /* SelectedItems.swift in Sources */,
 				EB669BDF246B8E3E00B6D54A /* AppDelegate.swift in Sources */,
+				567AFC86246CF0A8005EFF08 /* Symptoms_prediction.swift in Sources */,
 				EB669C12246B8EB200B6D54A /* ItemDetail.swift in Sources */,
 				EB669C22246B8FA500B6D54A /* Controller.swift in Sources */,
 				EB669C14246B8EBA00B6D54A /* ItemRow.swift in Sources */,

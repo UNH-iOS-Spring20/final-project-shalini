@@ -13,46 +13,53 @@ import FirebaseFirestore
 
 struct SelectedView: View {
     @EnvironmentObject var selectedItems: SelectedItems
+    let db = Firestore.firestore()
+    @State var data : [Symptoms_Prediction] = []
     //    @Binding var rating: Int
     var body: some View {
-        
-        
         ZStack{
-            NavigationView {
-                
-                List {
-                    Section {
-                        ForEach(selectedItems.items) { item in
-                            HStack {
-                                Image(item.imageName)
-                                    .resizable()
-                                    .frame(width: 30, height: 30)
-                                    .clipShape(Circle())
-                                    .overlay(Circle().stroke(Color.gray, lineWidth: 2))
-                                Text(item.name)
-                                
-                            //    Text("Value:\(Int(self.rating))")
-                                
-                            }
-                        }.onDelete(perform: deleteItems)
-                    }
+            NavigationView{
+            VStack{
+                List{
+                      ForEach(self.data, id: \.self.userID){ item in
+                          Text("\(item.favorites)")
+                          
+                    }.onDelete(perform: deleteItems)
+                  }
+                .onAppear{
+                      self.retreiveData()
+                  }
                 }.navigationBarTitle("Predictions")
-                    .listStyle(GroupedListStyle())
-                    .navigationBarItems(trailing: EditButton())
-                
-                
+                  .listStyle(GroupedListStyle())
+                .navigationBarItems(trailing: EditButton())
             }
-        }.background(Color.pink.opacity(0.10))
+        }
+      
         
-    }
+   }
     
     
     
     func deleteItems(at offsets: IndexSet) {
-        selectedItems.items.remove(atOffsets: offsets)
+        data.remove(atOffsets: offsets)
     }
     
-    
+    func retreiveData(){
+        self.db.collectionGroup("favorites").getDocuments { (querySnapshot, err) in
+            if let err = err{
+                print("Error getting documents \(err)")
+            }else{
+                for document in querySnapshot!.documents{
+                   
+                    let favorites = document.get("favorites") as! String
+                    let userID = document.documentID
+                    self.data.append(Symptoms_Prediction(favorites: favorites,UserID: userID))
+                    
+                }
+            }
+        }
+        
+    }
     
     
 }
